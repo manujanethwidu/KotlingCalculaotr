@@ -62,7 +62,7 @@
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:background="@color/buop"
-                android:onClick="buNumberEvent"
+                android:onClick="buOppEvent"
                 android:paddingBottom="3pt"
                 android:text="/" />
         </TableRow>
@@ -101,7 +101,7 @@
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:background="@color/buop"
-                android:onClick="buNumberEvent"
+                android:onClick="buOppEvent"
                 android:paddingBottom="3pt"
                 android:text="*" />
         </TableRow>
@@ -140,7 +140,7 @@
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:background="@color/buop"
-                android:onClick="buNumberEvent"
+                android:onClick="buOppEvent"
                 android:paddingBottom="3pt"
                 android:text="-" />
         </TableRow>
@@ -179,7 +179,7 @@
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:background="@color/buop"
-                android:onClick="buNumberEvent"
+                android:onClick="buOppEvent"
                 android:paddingBottom="3pt"
                 android:text="+" />
         </TableRow>
@@ -208,11 +208,11 @@
 
         <Button
             android:id="@+id/buEquel"
+            android:onClick="buEqual"
             android:layout_width="30pt"
             android:layout_height="30pt"
             android:layout_weight="0"
             android:background="@color/buop"
-            android:onClick="buNumberEvent"
             android:text="=" />
     </LinearLayout>
 
